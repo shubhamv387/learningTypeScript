@@ -1,0 +1,21 @@
+GET http://localhost:3000
+
+
+###
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+    "text": "my third todo!"
+}
+
+###
+PUT http://localhost:3000/todo/2023-08-27T09:23:34.981Z
+Content-Type: application/json
+
+{
+    "text": "updated todo!"
+}
+
+###
+DELETE http://localhost:3000/todo/2023-08-27T09:17:25.760Z
